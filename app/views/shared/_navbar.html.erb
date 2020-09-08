@@ -1,0 +1,106 @@
+<style>
+a{
+  font-family: 'Rubik', sans-serif;
+}
+.nav-item{
+  margin-left: 80px;
+}
+
+.nav-link{
+  color: rgb(36,66,143) !important;
+  transition: all 1s;
+  animation-fill-mode: forwards;
+
+}
+
+.nav-link:hover{
+    transform: scale(2);
+}
+
+.home-tab{
+  margin-left: 100px;
+}
+
+.dropdown:hover>.dropdown-menu{
+  display:block;
+}
+
+.dropdown-header{
+  font-weight: 800;
+  color: rgb(36,66,143)
+}
+
+.dropdown-divider{
+  border-top: 3px solid rgb(255,104,0);
+}
+
+
+@media (max-width: 696px){
+  .nav-item{
+    margin: 0;
+  }
+  .nav-link{
+    transition: all 2s ease-in;
+  }
+  .nav-link:hover{
+    transform:none;
+  }
+  .hoverAnimation:hover{
+    animation-name: flash;
+    -webkit-animation-name: flash;
+    animation-iteration-count: infinite;
+  }
+}
+
+</style>
+<nav class="navbar  navbar-expand-lg navbar-light " style="background-color: rgba(155, 191, 25,0.5)">
+  <a class="navbar-brand" href="<%= root_path %>">
+    <%= image_tag("SIAGRILogo.svg", size: 150) %>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse " id="navbarMenu">
+    <ul class="navbar-nav">
+      <li class="nav-item home-tab">
+        <a class="nav-link animate__animated hoverAnimation" href="<%= root_path %>"><%= t('navbar.home') %> </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link animate__animated hoverAnimation"><%= t('navbar.about_us') %></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle animate__animated hoverAnimation">
+          <%= t('navbar.products') %>
+        </a>
+        <div class="dropdown-menu" style="background-color: rgba(155, 191, 25,0.5)">
+          <a class="dropdown-header"><%= t('navbar.fruits') %></a>
+            <a class="dropdown-item"><%= t('navbar.citrus') %></a>
+            <a class="dropdown-item"><%= t('navbar.tomatoes') %></a>
+            <a class="dropdown-item"><%= t('navbar.other_fruit') %></a>
+          <div class="dropdown-divider"></div>
+
+          <a class="dropdown-header"><%= t('navbar.vegetables') %></a>
+            <a class="dropdown-item"><%= t('navbar.onions') %></a>
+            <a class="dropdown-item"><%= t('navbar.capsicums') %></a>
+            <a class="dropdown-item"><%= t('navbar.chillies') %></a>
+            <a class="dropdown-item"><%= t('navbar.other_veg') %></a>
+
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link animate__animated hoverAnimation"><%= t('navbar.contact') %></a>
+        </li>
+        <li class="nav-item">
+          <%= link_to image_tag("UKFlag.png", width: 50, height: 30), url_for(locale: :en), class: "nav-link animate__animated hoverAnimation" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to image_tag("SpainFlag.png", width:50, height: 30), url_for(locale: :es), class: "nav-link animate__animated hoverAnimation" %>
+        </li>
+
+        </div>
+
+
+
+    </ul>
+  </div>
+</nav>

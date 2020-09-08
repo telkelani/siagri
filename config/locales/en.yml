@@ -30,4 +30,17 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  navbar:
+    home: 'Home'
+    about_us: 'About Us'
+    products: 'Products'
+    fruits: 'Fruits'
+    citrus: 'Citrus'
+    tomatoes: 'Tomatoes'
+    other_fruit: 'Other Fruit'
+    vegetables: 'Vegetables'
+    onions: 'Onions'
+    capsicums: 'Capsicums'
+    chillies: 'Chillies'
+    other_veg: 'Other Vegetables'
+    contact: 'Contact'

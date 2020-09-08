@@ -34,8 +34,8 @@ a{
   border-top: 3px solid rgb(255,104,0);
 }
 
-
-@media (max-width: 696px){
+@media only screen and (min-resolution: 117dpi) and (max-resolution: 119dpi), only screen and (min-resolution: 131dpi) and (max-resolution: 133dpi), only screen and (min-resolution: 145dpi) and (max-resolution: 154dpi), only screen and (min-resolution: 162dpi) and (max-resolution: 164dpi), only screen and (min-resolution: 169dpi) {
+  /* Your touch-specific css goes here */
   .nav-item{
     margin: 0;
   }
@@ -51,6 +51,8 @@ a{
     animation-iteration-count: infinite;
   }
 }
+
+
 
 </style>
 <nav class="navbar  navbar-expand-lg navbar-light " style="background-color: rgba(155, 191, 25,0.5)">

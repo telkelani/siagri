@@ -34,25 +34,16 @@ a{
   border-top: 3px solid rgb(255,104,0);
 }
 
-@media only screen and (min-resolution: 117dpi) and (max-resolution: 119dpi), only screen and (min-resolution: 131dpi) and (max-resolution: 133dpi), only screen and (min-resolution: 145dpi) and (max-resolution: 154dpi), only screen and (min-resolution: 162dpi) and (max-resolution: 164dpi), only screen and (min-resolution: 169dpi) {
-  /* Your touch-specific css goes here */
+
+@media (max-width: 696px){
   .nav-item{
     margin: 0;
-  }
-  .nav-link{
-    transition: all 2s ease-in;
   }
   .nav-link:hover{
     transform:none;
   }
-  .hoverAnimation:hover{
-    animation-name: flash;
-    -webkit-animation-name: flash;
-    animation-iteration-count: infinite;
-  }
+
 }
-
-
 
 </style>
 <nav class="navbar  navbar-expand-lg navbar-light " style="background-color: rgba(155, 191, 25,0.5)">
@@ -65,13 +56,13 @@ a{
   <div class="collapse navbar-collapse " id="navbarMenu">
     <ul class="navbar-nav">
       <li class="nav-item home-tab">
-        <a class="nav-link animate__animated hoverAnimation" href="<%= root_path %>"><%= t('navbar.home') %> </a>
+        <a class="nav-link" href="<%= root_path %>"><%= t('navbar.home') %> </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link animate__animated hoverAnimation"><%= t('navbar.about_us') %></a>
+        <a class="nav-link"><%= t('navbar.about_us') %></a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle animate__animated hoverAnimation">
+        <a class="nav-link dropdown-toggle ">
           <%= t('navbar.products') %>
         </a>
         <div class="dropdown-menu" style="background-color: rgba(155, 191, 25,0.5)">
@@ -90,13 +81,13 @@ a{
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link animate__animated hoverAnimation"><%= t('navbar.contact') %></a>
+          <a class="nav-link "><%= t('navbar.contact') %></a>
         </li>
         <li class="nav-item">
-          <%= link_to image_tag("UKFlag.png", width: 50, height: 30), url_for(locale: :en), class: "nav-link animate__animated hoverAnimation" %>
+          <%= link_to image_tag("UKFlag.png", width: 50, height: 30), url_for(locale: :en), class: "nav-link " %>
         </li>
         <li class="nav-item">
-          <%= link_to image_tag("SpainFlag.png", width:50, height: 30), url_for(locale: :es), class: "nav-link animate__animated hoverAnimation" %>
+          <%= link_to image_tag("SpainFlag.png", width:50, height: 30), url_for(locale: :es), class: "nav-link" %>
         </li>
 
         </div>

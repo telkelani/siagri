@@ -9,7 +9,7 @@
   background-size: cover;
   min-height: 50vh;
   position: relative;
-  overflow: hidden;
+
 
 }
 
@@ -31,11 +31,10 @@
   background-image: url("greenhouse.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-blend-mode: color;
   background-size: cover;
   min-height: 50vh;
-  position: relative;
-  overflow: hidden;
+
+
 }
 
 .heading-image{
@@ -43,8 +42,11 @@
   margin: 50px 0;
 }
 
-@media (max-width:696px){
+@media (max-width:750px){
   #contact-title{
-    left: 10%;
+    left: 7%;
+  }
+  #first-half, #second-half{
+    background-attachment: scroll;
   }
 }

@@ -1,8 +1,10 @@
 <style>
+
 body{
+  margin: 0;
   overflow-x: hidden;
 }
-a, h1{
+*{
   font-family: 'Rubik', sans-serif;
 }
 .nav-item{
@@ -62,7 +64,7 @@ a, h1{
         <a class="nav-link" href="<%= root_path %>"><%= t('navbar.home') %> </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link"><%= t('navbar.about_us') %></a>
+        <a class="nav-link" href="<%= about_path %>"><%= t('navbar.about_us') %></a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle ">

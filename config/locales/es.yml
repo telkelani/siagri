@@ -48,3 +48,14 @@ es:
         telephone: Teléfono
         email: Correo Electrónico
         address: Dirección
+        designed_by: 'Diseñado por Rynk Services' 
+    about_us:
+        vision:
+          title: Nuestra Visión y Filosofía
+          desc: En Seatrade Europe estamos comprometidos a proporcionar productos de calidad superior que sean consistentes en sabor y calidad. Nuestro enfoque es asegurar que estén 100% frescos al llegar a las familias de hoy.
+        principles:
+          title: Principios Guía
+          desc: El compromiso con la calidad es nuestro objetivo. Las demandas de nuestros consumidores, la innovación continua y el excelente servicio nos motivan. A nuestros asociados profesionales les apasiona ser los que rinden mejor y se enorgullecen de brindar excelencia a nuestros clientes, manteniendo los mejores intereses de los productores.
+        social:
+          title: Responsibilidades Sociales
+          desc: Gente … Comunidades … Sostenibilidad de la Tierra En Seatrade Europe, nuestros esfuerzos están orientados a crear y preservar empleos. Trabajamos en estrecha colaboración con nuestros productores para mejorar la calidad y los volúmenes, preservando el medio ambiente y reduciendo el uso de pesticidas.

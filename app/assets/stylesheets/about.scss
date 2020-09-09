@@ -1,3 +1,96 @@
-// Place all the styles related to the about controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+.about-title{
+  position: absolute;
+  top: 40%;
+  padding-top: 15px;
+  left: 40%;
+  width: 7em;
+  height: 3em;
+  background: rgba(213, 224, 223,0.5);
+  color: green;
+  font-size: 48px;
+  text-align: center;
+  border-radius: 23px 23px 23px 23px;
+}
+
+#bottom-half{
+  background-image: url("watermelon-bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+#video{
+  display: flex;
+  object-fit:cover;
+  width: 100%;
+  height: 80vh;
+
+}
+.heading{
+  position: relative;
+
+}
+
+.img-cont{
+  border: 3px solid green;
+  border-radius: 50%;
+  margin: 50px;
+
+}
+
+.heading::after{
+  position: absolute;
+  content: "";
+  background-color: black;
+  margin-left: 10%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  transition: width 1.5s ease-in-out;
+
+
+}
+
+
+
+.about-row{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.row:hover .heading::after{
+  visibility: visible;
+  margin-left: 10%;
+  width: 80%;
+}
+
+
+
+
+.desc{
+  opacity: 0%;
+  transition: opacity 2s ease-out;
+}
+
+.row:hover .desc{
+  opacity: 100%;
+}
+
+@media (max-width:696px){
+  .img-cont{
+    margin: 0;
+    margin-top: 50px;
+  }
+
+  .desc{
+    opacity: 100%;
+  }
+
+  .about-title{
+    left: 7%;
+  }
+}

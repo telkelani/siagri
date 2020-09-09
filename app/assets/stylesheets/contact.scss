@@ -4,6 +4,7 @@
 #first-half{
   background-image: url("tomato-bg.jpg");
   background-attachment: fixed;
+  background-position: left top;
   background-repeat: no-repeat;
   background-blend-mode: color;
   background-size: cover;
@@ -13,7 +14,7 @@
 
 }
 
-#contact-title{
+.contact-title{
   position:absolute;
   padding-top: 20px;
   left: 40%;

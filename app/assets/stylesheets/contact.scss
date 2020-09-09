@@ -1,0 +1,50 @@
+// Place all the styles related to the contact controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+#first-half{
+  background-image: url("tomato-bg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-blend-mode: color;
+  background-size: cover;
+  min-height: 50vh;
+  position: relative;
+  overflow: hidden;
+
+}
+
+#contact-title{
+  position:absolute;
+  padding-top: 20px;
+  left: 40%;
+  top: 15%;
+  width: 7em;
+  height: 3em;
+  background: rgba(213, 224, 223,0.5);
+  color: green;
+  font-size: 48px;
+  text-align: center;
+  border-radius: 23px 23px 23px 23px;
+}
+
+#second-half{
+  background-image: url("greenhouse.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-blend-mode: color;
+  background-size: cover;
+  min-height: 50vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.heading-image{
+
+  margin: 50px 0;
+}
+
+@media (max-width:696px){
+  #contact-title{
+    left: 10%;
+  }
+}

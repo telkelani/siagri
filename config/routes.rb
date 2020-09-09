@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  scope "(:locales)", locale: /en|es/ do
+  scope "(:locale)", locale: /en|es/ do
     root 'home#index'
+    get '/contact', to: 'contact#contact'
   end
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

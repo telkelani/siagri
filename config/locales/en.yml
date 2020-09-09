@@ -44,3 +44,8 @@ en:
     chillies: 'Chillies'
     other_veg: 'Other Vegetables'
     contact: 'Contact'
+
+  contact:
+    telephone: Telephone
+    email: Email
+    address: Address

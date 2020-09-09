@@ -44,3 +44,7 @@ es:
         chillies: 'Chiles'
         other_veg: 'Otras Vegetales'
         contact: 'Contacto'
+    contact:
+        telephone: Teléfono
+        email: Correo Electrónico
+        address: Dirección

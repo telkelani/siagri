@@ -70,10 +70,10 @@ body{
           <%= t('navbar.products') %>
         </a>
         <div class="dropdown-menu" style="background-color: rgba(155, 191, 25,0.5)">
-          <a class="dropdown-header"><%= t('navbar.fruits') %></a>
-            <a class="dropdown-item"><%= t('navbar.citrus') %></a>
-            <a class="dropdown-item"><%= t('navbar.tomatoes') %></a>
-            <a class="dropdown-item"><%= t('navbar.other_fruit') %></a>
+          <a class="dropdown-header" href="<%= fruit_path %>"><%= t('navbar.fruits') %></a>
+            <a class="dropdown-item" href="<%= fruit_path %>#citrus"><%= t('navbar.citrus') %></a>
+            <a class="dropdown-item" href="<%= fruit_path %>#tomatoes"><%= t('navbar.tomatoes') %></a>
+            <a class="dropdown-item" href="<%= fruit_path %>#other-fruit"><%= t('navbar.other_fruit') %></a>
           <div class="dropdown-divider"></div>
 
           <a class="dropdown-header"><%= t('navbar.vegetables') %></a>

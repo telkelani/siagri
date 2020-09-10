@@ -98,4 +98,16 @@
     background-attachment: scroll;
     background-position: center;
   }
+
+  #video{
+    display: none;
+  }
+
+  #top-video{
+    background-image: url("truck.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }

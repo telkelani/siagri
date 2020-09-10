@@ -1,0 +1,73 @@
+// Place all the styles related to the fruit controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+#top-fruit-pic{
+  background-image: url("fruit/citrus/orange-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 30vw;
+  position: relative;
+}
+
+#tomato-bg-image{
+
+  background-image: url("fruit/tomatoes/tomato-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 30vw;
+
+}
+
+#other-fruit-image{
+  background-image: url("fruit/other fruit/other-fruit-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 30vw;
+}
+
+#end-pic{
+  background-image: url("fruit/pomegranate-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+  height: 30vw;
+
+}
+#citrus,#tomatoes,#other-fruit{
+  opacity: 80%;
+}
+.section-row{
+  margin-top: 10%;
+}
+.title-row{
+  margin-bottom: 5%;
+  margin-top: 10%;
+}
+
+.title-card{
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 40%;
+  width: 15em;
+  text-align: center;
+  background-color: rgba(213, 224, 223,0.5);
+  color: green;
+}
+
+@media (max-width: 696px){
+  #top-fruit-pic, #tomato-bg-image, #other-fruit-image, #end-pic{
+    background-attachment: scroll;
+  }
+
+  .title-card{
+    margin-left: 20%;
+  }
+
+
+}

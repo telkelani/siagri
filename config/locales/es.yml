@@ -48,7 +48,7 @@ es:
         telephone: Teléfono
         email: Correo Electrónico
         address: Dirección
-        designed_by: 'Diseñado por Rynk Services' 
+        designed_by: 'Diseñado por Rynk Web Services'
     about_us:
         vision:
           title: Nuestra Visión y Filosofía
@@ -59,3 +59,60 @@ es:
         social:
           title: Responsibilidades Sociales
           desc: Gente … Comunidades … Sostenibilidad de la Tierra En Seatrade Europe, nuestros esfuerzos están orientados a crear y preservar empleos. Trabajamos en estrecha colaboración con nuestros productores para mejorar la calidad y los volúmenes, preservando el medio ambiente y reduciendo el uso de pesticidas.
+    products:
+      variety: 'Variedad'
+      CO: 'Países'
+      sizes: 'Tallas'
+      pack: 'Paquete'
+    fruits:
+      name: 'Frutas'
+      citrus: 'Cidro'
+      watermelons: 'Sandía'
+      tomatoes:
+        name: 'Tomates'
+        loose:
+          name: 'Suelta'
+          variety: 'Varios'
+          CO: 'España, Marruecos, Holandia'
+          sizes: 'MM, M, G'
+          pack: '6kg'
+        vine:
+          name: 'Vino'
+          variety: 'Varios'
+          CO: 'España, Marruecos, Holandia'
+          sizes: 'MM,L'
+          pack: '6kg'
+      other_fruit: 'Otras Frutas'
+      oranges:
+        name: 'Naranjas'
+        variety: 'Naval, Valencia, Navellina'
+        CO: 'España, Egipto'
+        sizes: '36,42,48,54,60,72,80,90,100'
+        pack: '15kg Caja Abierta, 15kg Telescópico'
+      tangerines:
+        name: 'Mandarinas'
+        variety: 'Varios'
+        CO: 'España'
+        sizes: 'Varios'
+        pack: '10kg'
+      lemons:
+        name: 'Limónes'
+        variety: 'Eureka, Primafori, Verna, Bosque Portugués'
+        CO: 'España, Turquía, Egipto'
+        sizes: 'Varios'
+        pack: '6kg, 9kg, 15kg'
+      limes:
+        name: 'Limas'
+        variety: 'Varios'
+        CO: 'España, México'
+        sizes: '42,48,54,60,72'
+        pack: '4.5kg'
+      satsumas:
+        name: 'Satsumas'
+        variety: 'Varios'
+        CO: 'España'
+        sizes: 'Varios'
+        pack: '10kg'
+      white_grapes: 'Uvas Blancas'
+      red_grapes: 'Uvas Rojas'
+      pomegranates: 'Granadas'

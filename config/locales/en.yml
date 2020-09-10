@@ -49,7 +49,7 @@ en:
     telephone: Telephone
     email: Email
     address: Address
-    designed_by: Designed by Rynk Services
+    designed_by: Designed by Rynk Web Services
   about_us:
     vision:
       title: Our Vision and Philosophy
@@ -60,3 +60,63 @@ en:
     social:
       title: Social Responsibility
       desc: People…Communities…Earth sustainability At Seatrade, our efforts are towards creating and preserving jobs, enhancing our role in our community and preserving the environment. We have been in the Food Supply Chain since 1972. Our Long Term Commitment is to improve our business globally and for many years to come we are also committed to the earth sustainability and preserving the environment. We ensure that we minimize the use of Chemicals and Pesticides in all of our products. At Seatrade, we seek sound growth through practical, proactive decision making. Sustainability is a fundamental value in achieving our company initiatives.
+  products:
+    variety: 'Variety'
+    CO: 'Countries'
+    sizes: 'Sizes'
+    pack: 'Pack'
+    unit_weight: 'Unit Weight'
+  fruits:
+    name: 'Fruits'
+    citrus: 'Citrus'
+    watermelons:
+      name: 'Watermelon'
+    tomatoes:
+      name: 'Tomatoes'
+      loose:
+        name: 'Loose'
+        variety: 'Various'
+        CO: 'Spain, Morocco, Holland'
+        sizes: 'MM, M, G'
+        pack: '6kg'
+      vine:
+        name: 'Vine'
+        variety: 'Various'
+        CO: 'Spain, Morocco, Holland'
+        sizes: 'MM,L'
+        pack: '6kg'
+    other_fruit: 'Other Fruit'
+    oranges:
+      name: 'Oranges'
+      variety: 'Naval, Valencia, Navellina'
+      CO: 'Spain, Egypt'
+      sizes: '36,42,48,54,60,72,80,90,100'
+      pack: '15kg Open Top, 15kg Telescopic'
+    tangerines:
+      name: 'Tangerines'
+      variety: 'Various'
+      CO: 'Spain'
+      sizes: 'Various'
+      pack: '10kg'
+    lemons:
+      name: 'Lemons'
+      variety: 'Eureka, Primafori, Verna, Portuguese Forest'
+      CO: 'Spain, Turkey, Egypt '
+      sizes: 'Various'
+      pack: '6kg, 9kg, 15kg'
+    limes:
+      name: 'Limes'
+      variety: 'Various'
+      CO: 'Spain, Mexico'
+      sizes: '42,48,54,60,72'
+      pack: '4.5kg'
+    satsumas:
+      name: 'Satsumas'
+      variety: 'Various'
+      CO: 'Spain'
+      sizes: 'Various'
+      pack: '10kg'
+    white_grapes: 'White Grapes'
+    red_grapes: 'Red Grapes'
+    pomegranates: 'Pomegranate'
+    watermelons: Watermelon

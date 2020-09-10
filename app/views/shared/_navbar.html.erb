@@ -14,11 +14,18 @@ body{
   color: rgb(36,66,143) !important;
   transition: all 1s;
   animation-fill-mode: forwards;
+  font-stretch: expanded;
+  font-size: 1.3em;
+
 
 }
 
+.nav-link.active, .dropdown-header.active{
+  color: purple !important;
+}
+
 .nav-link:hover{
-    transform: scale(2);
+    transform: scale(1.2);
 }
 
 .home-tab{
@@ -60,17 +67,17 @@ body{
   <div class="collapse navbar-collapse " id="navbarMenu">
     <ul class="navbar-nav">
       <li class="nav-item home-tab">
-        <a class="nav-link" href="<%= root_path %>"><%= t('navbar.home') %> </a>
+        <a class="nav-link <%= 'active' if current_page?(root_path)%>" href="<%= root_path %>"><%= t('navbar.home') %> </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<%= about_path %>"><%= t('navbar.about_us') %></a>
+        <a class="nav-link <%= 'active' if current_page?(about_path)%>" href="<%= about_path %>"><%= t('navbar.about_us') %></a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle ">
+        <a class="nav-link dropdown-toggle <%= 'active' if current_page?(fruit_path)%>">
           <%= t('navbar.products') %>
         </a>
         <div class="dropdown-menu" style="background-color: rgba(155, 191, 25,0.5)">
-          <a class="dropdown-header" href="<%= fruit_path %>"><%= t('navbar.fruits') %></a>
+          <a class="dropdown-header <%= 'active' if current_page?(fruit_path)%>" href="<%= fruit_path %>"><%= t('navbar.fruits') %></a>
             <a class="dropdown-item" href="<%= fruit_path %>#citrus"><%= t('navbar.citrus') %></a>
             <a class="dropdown-item" href="<%= fruit_path %>#tomatoes"><%= t('navbar.tomatoes') %></a>
             <a class="dropdown-item" href="<%= fruit_path %>#other-fruit"><%= t('navbar.other_fruit') %></a>
@@ -85,13 +92,13 @@ body{
           </div>
         </li>
         <li class="nav-item">
-          <%= link_to  t('navbar.contact'), contact_path ,class:"nav-link" %>
+          <a class="nav-link <%= 'active' if current_page?(contact_path)%>" href="<%= contact_path %>"><%=t('navbar.contact')%></a>
         </li>
         <li class="nav-item">
-          <%= link_to image_tag("UKFlag.png", width: 50, height: 30), url_for(locale: :en), class: "nav-link " %>
+          <%= link_to image_tag("UKFlag.png", width: 60, height: 40), url_for(locale: :en), class: "nav-link " %>
         </li>
         <li class="nav-item">
-          <%= link_to image_tag("SpainFlag.png", width:50, height: 30), url_for(locale: :es), class: "nav-link" %>
+          <%= link_to image_tag("SpainFlag.png", width:60, height: 40), url_for(locale: :es), class: "nav-link" %>
         </li>
 
         </div>

@@ -23,6 +23,10 @@
   height: 500px;
 }
 
+#top-image{
+  display: none;
+}
+
 #video{
   display: flex;
   object-fit:cover;
@@ -32,6 +36,7 @@
 }
 .heading{
   position: relative;
+  margin-bottom: 2%;
 
 }
 
@@ -74,6 +79,8 @@
 .desc{
   opacity: 0%;
   transition: opacity 2s ease-out;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .row:hover .desc{
@@ -92,12 +99,14 @@
 
   .about-title{
     left: 7%;
+    position: relative;
   }
 
   #bottom-half{
     background-attachment: scroll;
     background-position: center;
   }
+
 
   #video{
     display: none;
@@ -109,5 +118,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 50vh;
   }
 }

@@ -112,5 +112,17 @@
 @media (max-width:696px){
   #top-veg-pic{
     height: 60vw;
+    background-attachment: scroll;
+
+  }
+  #top-veg-pic,#onion-bg-pic,#chilli-bg-pic,#other-veg-bg,#bottom-veg-pic{
+    background-attachment: scroll;
+  }
+
+  .tab{
+    width: 155px;
+  }
+  .tab-text{
+    font-size: 18px;
   }
 }

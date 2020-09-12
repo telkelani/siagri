@@ -125,4 +125,10 @@
   .tab-text{
     font-size: 18px;
   }
+  .tab-text::after{
+    margin-left: 3%;
+  }
+  .tab:hover .tab-text::after{
+    width: 95%;
+  }
 }

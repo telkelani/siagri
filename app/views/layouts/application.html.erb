@@ -13,7 +13,8 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 
-
+    <!-- AOS library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- mobile phone device meta tag -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,5 +25,10 @@
     <%= render 'shared/navbar' %>
     <%= yield %>
     <%= render 'shared/footer' %>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+
+    </script>
   </body>
 </html>

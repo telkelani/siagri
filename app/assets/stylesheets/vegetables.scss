@@ -1,0 +1,116 @@
+// Place all the styles related to the vegetables controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+#top-veg-pic{
+  background-image: url("vegetables/capsicums/capsicum-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 40vw;
+  position: relative;
+}
+
+#onion-bg-pic{
+  background-image: url("vegetables/onions/onion-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 40vw;
+  position: relative;
+}
+
+#chilli-bg-pic{
+  background-image: url("vegetables/chillies/chilli-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 40vw;
+  position: relative;
+}
+
+#other-veg-bg{
+  background-image: url("vegetables/other vegetables/other-veg-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 40vw;
+  position: relative;
+}
+
+#bottom-veg-pic{
+  background-image: url("vegetables/bottom-pic.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 40vw;
+  position: relative;
+
+}
+
+.tab{
+  background-color: rgba(155, 191, 25,0.5);
+  width: 30em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.tab-fruit{
+  width: 25em;
+}
+
+
+
+.tab-text{
+  position: relative;
+  opacity: 100%;
+  transition: opacity 1.5s ease-in-out;
+}
+.tab-text::after{
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  background-color: black;
+  width: 0%;
+  margin-left: 15%;
+  transition: width 1.5s ease-in-out;
+}
+
+
+
+.tab:hover {
+
+  animation-name: tab-animation;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  text-decoration: none;
+  color:black;
+
+}
+
+.tab:hover .tab-text::after{
+  width: 70%;
+
+}
+
+@keyframes tab-animation{
+  from {background-color: rgba(155, 191, 25,0.5)};
+  to {background-color: rgba(255,104,0,0.5); }
+
+}
+
+#capsicums,#onions, #chillies, #other-veg{
+  opacity: 75%;
+  margin-bottom: 5%;
+}
+
+@media (max-width:696px){
+  #top-veg-pic{
+    height: 60vw;
+  }
+}

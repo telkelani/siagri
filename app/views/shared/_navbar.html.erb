@@ -73,7 +73,7 @@ body{
         <a class="nav-link <%= 'active' if current_page?(about_path)%>" href="<%= about_path %>"><%= t('navbar.about_us') %></a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle <%= 'active' if current_page?(fruit_path)%>">
+        <a class="nav-link dropdown-toggle <%= 'active' if current_page?(fruit_path) || current_page?(vegetables_veg_path)%>">
           <%= t('navbar.products') %>
         </a>
         <div class="dropdown-menu" style="background-color: rgba(155, 191, 25,0.5)">
@@ -83,11 +83,11 @@ body{
             <a class="dropdown-item" href="<%= fruit_path %>#other-fruit"><%= t('navbar.other_fruit') %></a>
           <div class="dropdown-divider"></div>
 
-          <a class="dropdown-header"><%= t('navbar.vegetables') %></a>
-            <a class="dropdown-item"><%= t('navbar.onions') %></a>
-            <a class="dropdown-item"><%= t('navbar.capsicums') %></a>
-            <a class="dropdown-item"><%= t('navbar.chillies') %></a>
-            <a class="dropdown-item"><%= t('navbar.other_veg') %></a>
+          <a class="dropdown-header <%= 'active' if current_page?(vegetables_veg_path)%>" href="<%= vegetables_veg_path %>"><%= t('navbar.vegetables') %></a>
+            <a class="dropdown-item" href="<%= vegetables_veg_path %>#capsicums"><%= t('navbar.capsicums') %></a>
+            <a class="dropdown-item" href="<%= vegetables_veg_path %>#onions"><%= t('navbar.onions') %></a>
+            <a class="dropdown-item" href="<%= vegetables_veg_path %>#chillies"><%= t('navbar.chillies') %></a>
+            <a class="dropdown-item" href="<%= vegetables_veg_path %>#other-veg"><%= t('navbar.other_veg') %></a>
 
           </div>
         </li>

@@ -44,6 +44,9 @@ es:
         chillies: 'Chiles'
         other_veg: 'Otras Vegetales'
         contact: 'Contacto'
+    click_here:
+      to_view_veg: 'Ver nuestras verduras'
+      to_view_fruit: 'Ver nuestras frutas'
     contact:
         telephone: Teléfono
         email: Correo Electrónico
@@ -116,3 +119,82 @@ es:
       white_grapes: 'Uvas Blancas'
       red_grapes: 'Uvas Rojas'
       pomegranates: 'Granadas'
+    vegetables:
+      title: 'Verduras'
+      capsicums:
+        name: 'Pimiento'
+        red:
+          name: 'Pimiento Rojo'
+          variety: 'California'
+          CO: 'España, Holanda, Marruecos'
+          unit_weight: '5kg'
+          sizes: 'MM, M, G, GG'
+        green:
+          name: 'Pimiento Verde'
+          variety: 'California'
+          CO: 'España, Holanda, Marruecos'
+          unit_weight: '5kg'
+          sizes: 'MM, M, G, GG'
+        yellow:
+          name: 'Pimiento Amarillo'
+          variety: 'California'
+          CO: 'Spain, Holanda, Morocco'
+          unit_weight: '5kg'
+          sizes: 'MM, M, G, GG'
+      chillies:
+        name: 'Chiles'
+        red:
+          name: 'Chile Rojo'
+          CO: 'España, Egipto, Marruecos'
+          unit_weight: '3kg, 4kg'
+        habanero:
+          name: 'Chile Habanero'
+          CO: 'España, Uganda'
+          unit_weight: '3kg, 4kg'
+      onions:
+        title: 'Cebollas'
+        red:
+          name: 'Cebollas Rojas'
+          variety: 'Italia'
+          CO: 'Egipto'
+          sizes: '60/80 - 80/100'
+          pack: '10kg y al por mayor'
+        spanish:
+          name: 'Cebollas Españolas'
+          variety: 'Recca, Grano'
+          CO: 'España'
+          sizes: '60/80 - 80/100'
+          pack: '10KG y al por mayor'
+
+      other_veg:
+        title: 'Otras Verduras'
+        courgette:
+          name: 'Calabacín'
+          CO: 'España, Holanda, Marruecos'
+          unit_weight: '5kg'
+          sizes: '14/18, 14/21'
+        sweet_potato:
+          name: 'Batata'
+          variety: 'Beauguard, Covington'
+          CO: 'España, Egipto'
+          sizes: 'S, M, L, XL, XXL'
+          pack: '6kg y a granel'
+        cucumber:
+          name: 'Pepino'
+          CO: 'España, Holandia, Marruecos'
+          unit_weight: '5kg, cubierto'
+          sizes: '12G,12M,12P,14,16'
+        aubergines:
+          name: 'Berenjenas'
+          CO: 'España, Holanda, Marruecos'
+          unit_weight: '5kg, Cubierta de poliéster'
+          sizes: 'P,M,G'
+        butternut_squash:
+          name: 'Zapallo Anco'
+          CO: 'España, Portugal'
+          sizes: 'S, M, L, XL'
+          pack: '10kg y a granel'
+        lettuce:
+          name: 'Lechuga'
+          CO: 'España'
+          sizes: '10,12'

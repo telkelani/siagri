@@ -45,6 +45,10 @@ en:
     other_veg: 'Other Vegetables'
     contact: 'Contact'
 
+  click_here:
+    to_view_veg: 'Check out our vegetables'
+    to_view_fruit: 'Check out our fruits'
+
   contact:
     telephone: Telephone
     email: Email
@@ -120,3 +124,82 @@ en:
     red_grapes: 'Red Grapes'
     pomegranates: 'Pomegranate'
     watermelons: Watermelon
+
+  vegetables:
+    title: 'Vegetables'
+    capsicums:
+      name: 'Capsicums'
+      red:
+        name: 'Red Capsicum'
+        variety: 'California'
+        CO: 'Spain, Holland, Morocco'
+        unit_weight: '5kg'
+        sizes: 'MM, M, G, GG'
+      green:
+        name: 'Green Capsicum'
+        variety: 'California'
+        CO: 'Spain, Holland, Morocco'
+        unit_weight: '5kg'
+        sizes: 'MM, M, G, GG'
+      yellow:
+        name: 'Yellow Capsicum'
+        variety: 'California'
+        CO: 'Spain, Holland, Morocco'
+        unit_weight: '5kg'
+        sizes: 'MM, M, G, GG'
+    chillies:
+      name: 'Chillies'
+      red:
+        name: 'Red Chillis'
+        CO: 'Spain, Morocco, Egypt'
+        unit_weight: '3kg, 4kg'
+      habanero:
+        name: 'Habanero'
+        CO: 'Spain, Uganda'
+        unit_weight: '3kg, 4kg'
+    onions:
+      title: 'Onions'
+      red:
+        name: 'Red Onions'
+        variety: 'Italia'
+        CO: 'Egypt'
+        sizes: '60/80 - 80/100'
+        pack: '10kg and bulk'
+      spanish:
+        name: 'Spanish Onions'
+        variety: 'Recca, Grano'
+        CO: 'Spain'
+        sizes: '60/80 - 80/100'
+        pack: '10KG and bulk'
+    other_veg:
+      title: 'Other Vegetables'
+      courgette:
+        name: 'Courgette'
+        CO: 'Spain, Holland, Morocco'
+        unit_weight: '5kg'
+        sizes: '14/18, 14/21'
+      sweet_potato:
+        name: 'Sweet Potato'
+        variety: 'Beauguard, Covington'
+        CO: 'Spain, Egypt'
+        sizes: 'S, M, L, XL, XXL'
+        pack: '6kg and bulk'
+      cucumber:
+        name: 'Cucumbers'
+        CO: 'Spain, Holland, Morroco'
+        unit_weight: '5kg, filmed'
+        sizes: '12G,12M,12P,14,16'
+      aubergines:
+        name: 'Aubergines'
+        CO: 'Spain, Holland, Morocco'
+        unit_weight: '5kg, poly wrapped'
+        sizes: 'P,M,G'
+      butternut_squash:
+        name: 'Butternut Squash'
+        CO: 'Spain, Portugal'
+        sizes: 'S, M, L, XL'
+        pack: '10kg and bulk'
+      lettuce:
+        name: 'Lettuce'
+        CO: 'Spain'
+        sizes: '10,12'

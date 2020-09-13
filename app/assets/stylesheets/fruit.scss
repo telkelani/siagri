@@ -8,7 +8,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 60vw;
+  height: 40vw;
   position: relative;
 }
 
@@ -64,11 +64,11 @@
 @media (max-width: 696px){
   #top-fruit-pic, #tomato-bg-image, #other-fruit-image, #end-pic{
     background-attachment: scroll;
-    height: 60vw;
+    height: 70vw;
   }
 
   .title-card{
-    margin-left: 15%;
+    margin-left: 5%;
   }
 
 

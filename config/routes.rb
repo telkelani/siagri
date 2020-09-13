@@ -1,8 +1,7 @@
 Rails.application.routes.draw do
 
-  get 'fruit/fruit'
+  get '/', to: 'home#index'
   scope "(:locale)", locale: /en|es/ do
-    root 'home#index'
     get '/contact', to: 'contact#contact'
     get '/about', to: 'about#about'
     get '/fruit', to: 'fruit#fruit'

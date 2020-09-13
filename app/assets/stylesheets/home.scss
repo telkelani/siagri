@@ -11,6 +11,10 @@ body.home-body{
 
 }
 
+.col-xs-6{
+  display: none;
+}
+
 .raindrop{
   border-radius: 50% 0% 50% 50%;
   background-color: rgb(189, 241, 255);
@@ -142,11 +146,17 @@ body.home-body{
   .home-card{
     margin-left: 0px;
 
+
   }
 
   .products-card{
-    margin-top: 50%;
+    margin-top: 55%;
   }
+
+  .card-btn{
+    width: 8em;
+  }
+
 
   .card-text{
     margin-bottom: 8%;
@@ -154,12 +164,15 @@ body.home-body{
   .card-learn-more{
     margin-bottom: 2%;
   }
+  .col-xs-6{
+    display: flex;
+  }
   .col-sm-6{
     display: none;
   }
   @keyframes appear{
     from {opacity: 0%; width: 0%;}
 
-    100% {opacity: 100%; width: 25em;}
+    100% {opacity: 100%; width: 20em;}
   }
 }

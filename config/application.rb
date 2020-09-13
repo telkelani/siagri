@@ -9,10 +9,11 @@ Bundler.require(*Rails.groups)
 module Siagri
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
+    config.middleware.insert_before(Rack::Sendfile, Rack::Deflater)
     config.load_defaults 6.0
     config.assets.paths << "#{Rails.root}/app/assets/videos"
     config.i18n.available_locales = [:en, :es]
-    config.middleware.insert_before(Rack::Sendfile, Rack::Deflater)
+
 
 
     # Settings in config/environments/* take precedence over those specified here.

@@ -68,6 +68,20 @@ body.home-body{
 
 }
 
+@media (min-width:2560px){
+  .first-option{
+    left: 15%;
+    top: 30%;
+    height: 10em;
+  }
+
+  .second-option{
+    right: 25%;
+    top: 65%;
+
+  }
+}
+
 .card-text,.card-learn-more,.card-btn{
   opacity: 0%;
   animation-name: text-appear;

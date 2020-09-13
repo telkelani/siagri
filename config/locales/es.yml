@@ -30,6 +30,14 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 es:
+    home:
+      our_company:
+        title: Nuestra Empresa
+        desc: La misión de nuestras marcas es entregar los productos de calidad más frescos a su mesa y más allá.
+        learn_more: Saber Más
+      our_products:
+        title: Nuestros Productos
+        desc: Calidad, frescura y sabor
     navbar:
         home: 'Inicio'
         about_us: 'Sobre Nosotros'

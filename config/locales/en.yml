@@ -30,6 +30,15 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
+  home:
+    our_company:
+      title: Our Company
+      desc: 'Our brands mission is to deliver the freshest quality products to your dinner table and beyond.'
+      learn_more: Learn More
+    our_products:
+      title: Our Products
+      desc: Quality, freshness and flavor
+
   navbar:
     home: 'Home'
     about_us: 'About Us'

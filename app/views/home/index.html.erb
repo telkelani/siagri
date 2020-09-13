@@ -1,1 +1,28 @@
 
+
+  <body class="home-body">
+  <div class="raindrop raindrop1">
+  </div>
+  <div class="raindrop raindrop2">
+  </div>
+
+
+  <div class="card card-body home-card first-option">
+    <h3 class="card-title"><%=t('home.our_company.title')%></h3>
+    <h5 class="card-text"><%= t('home.our_company.desc')%></h5>
+    <a href="<%= about_path %>" class="btn btn-default card-btn card-learn-more"><%= t('home.our_company.learn_more')%></a>
+  </div>
+
+  <div class="card card-body home-card second-option">
+    <h3 class="card-title"><%= t('home.our_products.title')%></h3>
+    <h5 class="card-text" style="text-align: center;"><%= t('home.our_products.desc')%></h5>
+    <div class="row" style="margin-top:30px;">
+      <div class="col-sm-6 text-center">
+        <a href="<%=fruit_path %>" class="btn btn-default card-btn"><%= t('navbar.fruits')%></a>
+      </div>
+      <div class="col-sm-6 text-center">
+        <a href="<%=vegetables_veg_path%>"  class="btn btn-default card-btn"><%=t('navbar.vegetables')%></a>
+      </div>
+    </div>
+  </div>
+</body>

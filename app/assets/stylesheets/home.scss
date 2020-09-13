@@ -1,3 +1,128 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+body.home-body{
+  background-image: url("home-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+}
+
+.raindrop{
+  border-radius: 50% 0% 50% 50%;
+  background-color: rgb(189, 241, 255);
+  transform: rotate(-45deg);
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  margin-left: 150px;
+  top: 0%;
+
+
+}
+
+.raindrop1{
+  top: 0%;
+  left: 25%;
+  animation-name: raindrop1;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.raindrop2{
+  left: 50%;
+  animation-name: raindrop2;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+
+.home-card{
+  position: absolute;
+  top: 40%;
+  opacity: 0%;
+  background-color: rgba(189, 241, 255,0.5);
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-delay: 1.3s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  width: 0%;
+
+
+}
+
+.first-option{
+  left: 15%;
+  top: 30%;
+  height: 10em;
+}
+
+.second-option{
+  right: 22.5%;
+  top: 65%;
+
+
+}
+
+.card-text,.card-learn-more,.card-btn{
+  opacity: 0%;
+  animation-name: text-appear;
+  animation-duration: 2s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+.card-learn-more{
+  width: 20%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+
+.card-btn{
+  background: rgba(21, 171, 212,0.5);
+  width: 10em;
+
+}
+
+
+@keyframes appear{
+  from {opacity: 0%; }
+
+  100% {opacity: 100%; width: 50em;}
+}
+
+@keyframes text-appear{
+  from{opacity: 0%}
+  to{opacity: 100%}
+}
+
+
+
+
+@keyframes raindrop1{
+  0% {opacity: 100%};
+
+  100% {opacity: 0%; top: 40%; }
+
+}
+
+@keyframes raindrop2{
+  0% {opacity: 100%};
+  25% {opacity: 75%};
+  50% {opacity: 50%};
+  75% {opacity: 25%};
+  100% {opacity: 0%; top: 80%; }
+
+}
+
+@media (max-width:696px){
+
+}

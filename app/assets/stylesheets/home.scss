@@ -7,8 +7,7 @@ body.home-body{
   background-image: url("home-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-
-
+  background-position: top;
 
 }
 
@@ -127,4 +126,40 @@ body.home-body{
   75% {opacity: 25%};
   100% {opacity: 0%; top: 70%; }
 
+}
+
+@media (max-width: 696px){
+  body.home-body{
+  overflow-x: hidden;
+  width: 100%;
+  }
+  .raindrop1{
+    position: absolute;
+    left: 0px;
+    margin-left: 20px;
+  }
+
+  .home-card{
+    margin-left: 0px;
+
+  }
+
+  .products-card{
+    margin-top: 50%;
+  }
+
+  .card-text{
+    margin-bottom: 8%;
+  }
+  .card-learn-more{
+    margin-bottom: 2%;
+  }
+  .col-sm-6{
+    display: none;
+  }
+  @keyframes appear{
+    from {opacity: 0%; width: 0%;}
+
+    100% {opacity: 100%; width: 25em;}
+  }
 }
